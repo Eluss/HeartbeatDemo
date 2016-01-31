@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDBAD641C5E16F5004BBCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBAD631C5E16F5004BBCBC /* AppDelegate.swift */; };
+		1DDBAD661C5E16F5004BBCBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBAD651C5E16F5004BBCBC /* ViewController.swift */; };
+		1DDBAD6B1C5E16F5004BBCBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBAD6A1C5E16F5004BBCBC /* Assets.xcassets */; };
+		1DDBAD6E1C5E16F5004BBCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBAD6C1C5E16F5004BBCBC /* LaunchScreen.storyboard */; };
+		1DDBAD7C1C5E1863004BBCBC /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBAD781C5E1863004BBCBC /* heart@2x.png */; };
+		1DDBAD7D1C5E1863004BBCBC /* heart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBAD791C5E1863004BBCBC /* heart@3x.png */; };
+		1DDBAD7E1C5E1863004BBCBC /* heart_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBAD7A1C5E1863004BBCBC /* heart_border@2x.png */; };
+		1DDBAD7F1C5E1863004BBCBC /* heart_border@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDBAD7B1C5E1863004BBCBC /* heart_border@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DDBAD601C5E16F5004BBCBC /* HeartBeatButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBeatButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DDBAD631C5E16F5004BBCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DDBAD651C5E16F5004BBCBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DDBAD6A1C5E16F5004BBCBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DDBAD6D1C5E16F5004BBCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DDBAD6F1C5E16F5004BBCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDBAD781C5E1863004BBCBC /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
+		1DDBAD791C5E1863004BBCBC /* heart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@3x.png"; sourceTree = "<group>"; };
+		1DDBAD7A1C5E1863004BBCBC /* heart_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart_border@2x.png"; sourceTree = "<group>"; };
+		1DDBAD7B1C5E1863004BBCBC /* heart_border@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart_border@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DDBAD5D1C5E16F5004BBCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DDBAD571C5E16F5004BBCBC = {
+			isa = PBXGroup;
+			children = (
+				1DDBAD621C5E16F5004BBCBC /* HeartBeatButton */,
+				1DDBAD611C5E16F5004BBCBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DDBAD611C5E16F5004BBCBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DDBAD601C5E16F5004BBCBC /* HeartBeatButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DDBAD621C5E16F5004BBCBC /* HeartBeatButton */ = {
+			isa = PBXGroup;
+			children = (
+				1DDBAD631C5E16F5004BBCBC /* AppDelegate.swift */,
+				1DDBAD771C5E1863004BBCBC /* images */,
+				1DDBAD651C5E16F5004BBCBC /* ViewController.swift */,
+				1DDBAD6A1C5E16F5004BBCBC /* Assets.xcassets */,
+				1DDBAD6C1C5E16F5004BBCBC /* LaunchScreen.storyboard */,
+				1DDBAD6F1C5E16F5004BBCBC /* Info.plist */,
+			);
+			path = HeartBeatButton;
+			sourceTree = "<group>";
+		};
+		1DDBAD771C5E1863004BBCBC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1DDBAD781C5E1863004BBCBC /* heart@2x.png */,
+				1DDBAD791C5E1863004BBCBC /* heart@3x.png */,
+				1DDBAD7A1C5E1863004BBCBC /* heart_border@2x.png */,
+				1DDBAD7B1C5E1863004BBCBC /* heart_border@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DDBAD5F1C5E16F5004BBCBC /* HeartBeatButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DDBAD721C5E16F5004BBCBC /* Build configuration list for PBXNativeTarget "HeartBeatButton" */;
+			buildPhases = (
+				1DDBAD5C1C5E16F5004BBCBC /* Sources */,
+				1DDBAD5D1C5E16F5004BBCBC /* Frameworks */,
+				1DDBAD5E1C5E16F5004BBCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartBeatButton;
+			productName = HeartBeatButton;
+			productReference = 1DDBAD601C5E16F5004BBCBC /* HeartBeatButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DDBAD581C5E16F5004BBCBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eliasz Sawicki";
+				TargetAttributes = {
+					1DDBAD5F1C5E16F5004BBCBC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4P6E38VFQ5;
+					};
+				};
+			};
+			buildConfigurationList = 1DDBAD5B1C5E16F5004BBCBC /* Build configuration list for PBXProject "HeartBeatButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DDBAD571C5E16F5004BBCBC;
+			productRefGroup = 1DDBAD611C5E16F5004BBCBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DDBAD5F1C5E16F5004BBCBC /* HeartBeatButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DDBAD5E1C5E16F5004BBCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDBAD7C1C5E1863004BBCBC /* heart@2x.png in Resources */,
+				1DDBAD6E1C5E16F5004BBCBC /* LaunchScreen.storyboard in Resources */,
+				1DDBAD7F1C5E1863004BBCBC /* heart_border@3x.png in Resources */,
+				1DDBAD7D1C5E1863004BBCBC /* heart@3x.png in Resources */,
+				1DDBAD7E1C5E1863004BBCBC /* heart_border@2x.png in Resources */,
+				1DDBAD6B1C5E16F5004BBCBC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DDBAD5C1C5E16F5004BBCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDBAD661C5E16F5004BBCBC /* ViewController.swift in Sources */,
+				1DDBAD641C5E16F5004BBCBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DDBAD6C1C5E16F5004BBCBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDBAD6D1C5E16F5004BBCBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DDBAD701C5E16F5004BBCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DDBAD711C5E16F5004BBCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DDBAD731C5E16F5004BBCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartBeatButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SawPro.HeartBeatButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DDBAD741C5E16F5004BBCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeartBeatButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SawPro.HeartBeatButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DDBAD5B1C5E16F5004BBCBC /* Build configuration list for PBXProject "HeartBeatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDBAD701C5E16F5004BBCBC /* Debug */,
+				1DDBAD711C5E16F5004BBCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DDBAD721C5E16F5004BBCBC /* Build configuration list for PBXNativeTarget "HeartBeatButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DDBAD731C5E16F5004BBCBC /* Debug */,
+				1DDBAD741C5E16F5004BBCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DDBAD581C5E16F5004BBCBC /* Project object */;
+}
